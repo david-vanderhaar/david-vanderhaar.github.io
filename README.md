@@ -17,25 +17,51 @@ Learn more about David
 </style>
 </head>
 <h1>
-   A Webpage About <a href="https://en.wikipedia.org/wiki/Sushi">Sushi</a>
    <h2>
-     by David Vanderhaar Hunter
+      <table style="width:100%">
+        <tr>
+          <th> 
+            <a href="https://github.com/david-vanderhaar">
+              Github
+            </a> 
+          </th>
+          <th>
+            <a href="https://www.linkedin.com/in/david-vanderhaar-096b7013b/">
+              LinkedIn
+            </a> 
+          </th> 
+          <th>
+            <a href="d.vanderhaarhunter@gmail.com">
+              Gmail
+            </a> 
+          </th>
+          <th>
+            <a href="https://soundcloud.com/david-vanderhaar/sets/good-instr">
+              Soundcloud
+            </a> 
+          </th>
+          <th>
+            <a href="https://www.instagram.com/david_vanderhaar/?hl=en">
+              Instagram
+            </a> 
+          </th>
+        </tr>
+      </table>
    </h2>
  </h1>
 
 <body>
   
-  <p>
-    <a href="https://en.wikipedia.org/wiki/Sushi">Sushi</a> is my favorite food. Meriam-Webster's Dictionary describes it as: cold rice dressed with vinegar, formed into any of various shapes, and garnished especially with bits of raw seafood or vegetables.
+    <p>
+    Daivd is currently studying web and software development at Awesome Inc. He is a big fan of indie game developement, beat making, and podcast listening.
     <br>
-    Meriam's dosen't make it sound so good, but I love it for its unique tastes and textures.
     <br>
-    Click on the image below to begin your own sushi journey!
     <br>
-    <a href="https://en.wikipedia.org/wiki/Sushi">
-      <img id='selfPortrait' style="border: #778899 4px solid;" src="Self_Trevor.jpg" onmouseover="this.src='Self_Drawn.JPG'"
-      onmouseout="this.src='Self_Trevor.jpg'">
-    </a>
+
+      <img id='selfPortrait' style="border: #778899 4px solid;" src="Self_Trevor.jpg">
+
+      <!-- <img id='selfPortrait' style="border: #778899 4px solid;" src="Self_Trevor.jpg" onmouseover="this.src='Self_Drawn.JPG'"
+      onmouseout="this.src='Self_Trevor.jpg'">-->
   </p>
 </body>
 
