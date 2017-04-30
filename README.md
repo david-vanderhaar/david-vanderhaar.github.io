@@ -33,8 +33,8 @@ Learn more about David
     Click on the image below to begin your own sushi journey!
     <br>
     <a href="https://en.wikipedia.org/wiki/Sushi">
-      <img id='selfPortrait' height="400" width="400" style="border: #778899 4px solid;" src="Self_Trevor.jpg" onmouseover="this.src='Self_Drawn.jpg'"
-      onmouseout="this.src='Self_Trevor'">
+      <img id='selfPortrait' style="border: #778899 4px solid;" src="Self_Trevor.jpg" onmouseover="this.src='Self_Drawn.JPG'"
+      onmouseout="this.src='Self_Trevor.jpg'">
     </a>
   </p>
 </body>
