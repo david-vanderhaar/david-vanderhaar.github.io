@@ -45,6 +45,11 @@ Learn more about David
               Instagram
             </a> 
           </th>
+          <th>
+            <a href="https://stackoverflow.com/users/7920838/david-vanderhaar">
+              StackOverflow
+            </a> 
+          </th>
         </tr>
       </table>
    </h2>
