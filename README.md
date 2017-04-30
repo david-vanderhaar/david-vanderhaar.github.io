@@ -6,8 +6,16 @@ Learn more about David
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
-  <link rel="stylesheet" href="">
+  <style media="screen" type="text/css">
+
+    body{
+      color: LightSlateGray;
+      background-color: white;
+      text-align: center;
+
+    }
+
+</style>
 </head>
 <h1>
    A Webpage About <a href="https://en.wikipedia.org/wiki/Sushi">Sushi</a>
