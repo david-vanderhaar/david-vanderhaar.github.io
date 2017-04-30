@@ -58,7 +58,7 @@ Learn more about David
 <body>
   
     <p>
-    Daivd is currently studying web and software development at Awesome Inc. He is a big fan of indie game developement, beat making, and podcast listening.
+    David is currently studying web and software development at Awesome Inc. He is a big fan of indie game developement, beat making, and podcast listening.
     <br>
     <br>
     <br>
