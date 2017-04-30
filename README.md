@@ -1,7 +1,6 @@
 # david-vanderhaar.github.io
 Learn more about David
 
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
