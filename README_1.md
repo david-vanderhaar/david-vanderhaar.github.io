@@ -10,8 +10,11 @@ Learn more about David
   <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 </head>
 <body>
-  
-    <link rel="htmlMain" type="text/html" href="index.html" media="screen" />
+<head>
+
+      <link rel="htmlMain" type="text/html" href="index.html" media="screen" />
+
+</head>
 
 </body>
 </html>
