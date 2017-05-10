@@ -79,7 +79,7 @@ function draw() {
 
   for (var i = 0; i < bugObj.length; i++){
     bugObj[i].move();
-    bugObj[i].reset();
+    //bugObj[i].reset();
     for (var j = 0; j < bugObj.length; j++){
       if ( i != j && bugObj[i].intersects(bugObj[j])){
         line(bugObj[i].x, bugObj[i].y, bugObj[j].x, bugObj[j].y);
