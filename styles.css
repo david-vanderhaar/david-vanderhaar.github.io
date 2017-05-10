@@ -1,14 +1,32 @@
 * {
 /*background-color: #D5D5D5; Papaer*/
 background-color: #343434;
+background-color:  rgba(0, 0, 0, 0);
+
 font-family: Centaur;
 border: none;
+}
+html {
+
+  background-color: #343434;
+
+}
+canvas {
+  position: absolute;
+  display: flex;
+  z-index: -10;
+  /*border: solid red;*/
+  background-color: inherit;
+
 }
 
 body {
  /*background-image: url(Portrait.jpg);
   background-size: cover;*/
+
 }
+
+
 
 h2{
   color: #AEAEAE;
@@ -23,6 +41,8 @@ h2{
   left: 25%;*/
   position: absolute;
   display: block;
+  /*border: solid red;*/
+  background-color:  rgba(0, 0, 0, 0);
 
 }
 
@@ -40,6 +60,7 @@ h2{
 
 .portrait {
   text-align: center;
+
 }
 
 #selfPortrait {
@@ -53,9 +74,14 @@ h2{
   float: left;
   text-align: center;
   margin-bottom: -2em;
+/*
+  position: fixed;
+  background-color: rgba(0,0,0,0);
+  */
 }
 
 .link a {
+  background-color: rgba(0,0,0,0);
   border: none;
 }
 
@@ -67,4 +93,9 @@ h2{
   padding: 1px;
   margin: 25px;
 
+}
+
+.canvas {
+  /*border: solid white;*/
+  text-align: center;
 }

@@ -3,35 +3,35 @@ Learn more about David
 
 <table style="width:100%">
         <tr>
-          <th> 
+          <th>
             <a href="https://github.com/david-vanderhaar">
               Github
-            </a> 
+            </a>
           </th>
           <th>
             <a href="https://www.linkedin.com/in/david-vanderhaar-096b7013b/">
               LinkedIn
-            </a> 
-          </th> 
+            </a>
+          </th>
           <th>
-            <a href="mailtto:d.vanderhaarhunter@gmail.com">
+            <a href="https://mailto:d.vanderhaarhunter@gmail.com" >
               Gmail
-            </a> 
+            </a>
           </th>
           <th>
             <a href="https://soundcloud.com/david-vanderhaar/sets/good-instr">
               Soundcloud
-            </a> 
+            </a>
           </th>
           <th>
             <a href="https://www.instagram.com/david_vanderhaar/?hl=en">
               Instagram
-            </a> 
+            </a>
           </th>
           <th>
             <a href="https://stackoverflow.com/users/7920838/david-vanderhaar">
               StackOverflow
-            </a> 
+            </a>
           </th>
         </tr>
       </table>
