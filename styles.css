@@ -3,7 +3,7 @@
 background-color: #343434;
 background-color:  rgba(0, 0, 0, 0);
 
-font-family: Centaur;
+font-family: Centaur, "Times New Roman", KaiTi;
 border: none;
 }
 html {
@@ -55,7 +55,9 @@ h2{
   font-size: 150%;
   border-bottom: double;
   margin-bottom: 10px;
+  margin-top: 10px;
   padding-bottom: 1em;
+
 }
 
 .portrait {
