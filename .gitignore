@@ -8,3 +8,7 @@ empty-example
 _posts
 vendor
 package.json
+about.md
+Gemfile
+Gemfile.lock
+gulpfile.js
