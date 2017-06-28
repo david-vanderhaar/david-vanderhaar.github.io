@@ -1,4 +1,9 @@
-README.sublime-workspace
+_site
+.sass-cache
+.jekyll-metadata
 node_modules
-bootCSS.css
-indexBoot.html
+LICENSE
+_MACOSX
+empty-example
+_posts
+vendor
