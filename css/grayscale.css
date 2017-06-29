@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Grayscale v4.0.0-alpha (http://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ * Start Bootstrap -  v1.0.0 (https://github.com/david-vanderhaar/david-vanderhaar.github.io#readme)
+ * Copyright 2013-2017 
+ * Licensed under ISC (https://github.com/BlackrockDigital/david-vanderhaar.github.io/blob/master/LICENSE)
  */
 body {
   font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -41,15 +41,18 @@ a {
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  color: #42DCA3; }
+  color: #FF3201; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #1d9b6c; }
+    color: #9a1e00; }
 
 canvas {
   width: 100% !important;
   /* The image used */
   /* Full height */ }
+
+.accentText {
+  color: #FF3201; }
 
 .portfolioImgLink {
   width: 90%;
@@ -72,7 +75,9 @@ canvas {
   margin: 0; }
 
 .imgLink + .textOverlay {
-  font-size: 30px;
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
   width: 100%;
   opacity: 0;
   transition: 1s; }
@@ -213,14 +218,14 @@ canvas {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: #FF3201;
+  border: 1px solid #FF3201;
   background-color: transparent; }
   .btn-default:hover, .btn-default:focus {
     color: black;
-    border: 1px solid #42DCA3;
+    border: 1px solid #FF3201;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #FF3201; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
