@@ -88,6 +88,19 @@ canvas {
   transform: translate(0px, -10px);
   transition: 1s; }
 
+#skills {
+  padding: 20px; }
+
+#skills > i {
+  font-size: 110px;
+  color: #FF3201;
+  padding: 15px; }
+
+#hobbies > i {
+  font-size: 110px;
+  color: #FF3201;
+  padding: 15px; }
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
@@ -183,7 +196,7 @@ canvas {
 .content-section {
   padding-top: 100px; }
 
-.download-section {
+.about-section {
   width: 100%;
   padding: 50px 0;
   color: white;
