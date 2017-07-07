@@ -375,7 +375,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8603,
+				"buffer_size": 9272,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -384,7 +384,7 @@
 			"file": "scss/grayscale.scss",
 			"settings":
 			{
-				"buffer_size": 6886,
+				"buffer_size": 6959,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -623,8 +623,7 @@
 	[
 		"/home/dvanderhaar/personal-web/david-vanderhaar.github.io",
 		"/home/dvanderhaar/personal-web/david-vanderhaar.github.io/css",
-		"/home/dvanderhaar/personal-web/david-vanderhaar.github.io/js",
-		"/home/dvanderhaar/personal-web/david-vanderhaar.github.io/vendor/bootstrap/css"
+		"/home/dvanderhaar/personal-web/david-vanderhaar.github.io/js"
 	],
 	"file_history":
 	[
@@ -1047,15 +1046,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8603,
+						"buffer_size": 9272,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5621,
-								5621
+								7952,
+								7952
 							]
 						],
 						"settings":
@@ -1066,7 +1065,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3000.0,
+						"translation.y": 3975.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1078,15 +1077,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6886,
+						"buffer_size": 6959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1861,
-								1861
+								1992,
+								1992
 							]
 						],
 						"settings":
@@ -1097,7 +1096,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2250.0,
+						"translation.y": 2550.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1712,7 +1711,7 @@
 		[
 			[
 				"",
-				"~/bootcamp-s17/timetracker/timetracker.sublime-project"
+				"~/personal-web/freesound-beat-lab/freesound-beat-lab.sublime-project"
 			]
 		],
 		"width": 380.0
