@@ -1,0 +1,61 @@
+:root {
+    --background-color-green: brown;
+    --font-sans-serif: Roboto, Sans-Serif;
+    --font-serif: Roboto Slab, Serif;
+    --color-light: #dad5ec;
+    --color-dark: #c3bed5;
+}
+
+body {
+    background-color: #494066;
+    color: var(--color-light);
+    max-width: 38rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+header {
+    display: flex;
+}
+
+.header__title {
+    flex-grow: 1;
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.header__links {
+    flex-shrink: 1;
+}
+
+.header__links a {
+    color: var(--color-dark);
+    text-decoration: none;
+}
+
+.header__links a:hover {
+    color: var(--color-light);
+}
+
+main {
+    margin-top: 2rem;
+}
+
+.main__section {
+    margin-top: 1rem;
+}
+
+.main__section__title {
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.main__section__body {
+    font-family: var(--font-serif);
+    font-weight: 200;
+    font-size: 16px;
+    color: var(--color-dark)
+}
+  

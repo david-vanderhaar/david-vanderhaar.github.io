@@ -10,7 +10,7 @@ function setup() {
   canvas.parent('sketch-holder');
     // canvas.parent('sketch');
   //background(51);
-  stroke(255);
+  stroke(0);
   noFill();
   fill(38);
   spacing = 80;
