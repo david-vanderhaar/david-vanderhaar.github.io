@@ -9,3 +9,8 @@
 - showcase of tools and games I make
 - a showcase of music I make
 - a cv/resume
+
+# Extra Content
+- music player
+- recommended dev reading
+- recommended personal reading
