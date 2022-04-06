@@ -13,9 +13,9 @@
 body {
     background-color: #494066;
     color: var(--color-light);
-    max-width: 38rem;
-    margin: auto;
-    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
 header {
@@ -42,30 +42,20 @@ header {
     color: var(--color-light);
 }
 
-#portrait {
-    max-width: 400px;
-    position: relative;
-    z-index: 2;
-}
-
 #portrait_container {
-    position: absolute;
-    left: 0px;
     background: #272727;
+    margin: 3rem;
 }
 
-.portrait__color_block-left {
-    background: #272727;
-    width: 264px;
-    height: 500px;
-    position: absolute;
-    left: 0px;
-    top: 332px;
-    z-index: 1;
+#portrait_container img {
+    max-width: 400px;
 }
 
 main {
     margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    max-width: 38rem;
 }
 
 .main__section {
