@@ -52,7 +52,7 @@ header {
 }
 
 main {
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
     max-width: 38rem;
@@ -85,7 +85,8 @@ main {
 }
 
 .experience_entry__left {
-    flex: 1;
+    /* flex: 1; */
+    width: 128px;
 }
 
 .experience_entry__year {
