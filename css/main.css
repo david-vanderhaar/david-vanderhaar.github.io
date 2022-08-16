@@ -75,6 +75,13 @@ main {
     color: var(--color-dark)
 }
 
+.contact_information__item {
+    font-family: var(--font-serif);
+    font-weight: 200;
+    font-size: 12px;
+    color: var(--color-dark)
+}
+
 .experience_entry {
     display: flex;
     margin-bottom: 1rem;
@@ -91,7 +98,8 @@ main {
 .experience_entry__year {
     font-family: var(--font-sans-serif);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .experience_entry__title {

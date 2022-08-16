@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" target="_blank" href="https://fonts.googleapis.com">
+    <link rel="preconnect" target="_blank" href="https://fonts.gstatic.com" crossorigin>
+    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" target="_blank" href="./css/main.css">
     <title>David Vanderhaar</title>
 </head>
 <body>
@@ -20,17 +20,21 @@
         <header>
             <div class="header__title">David Vanderhaar</div>
             <nav class="header__links">
-                <a href="https://github.com/david-vanderhaar" aria-label="link to david's github">
+                <a target="_blank" href="https://github.com/david-vanderhaar" aria-label="link to david's github">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/david-vanderhaar/" aria-label="link to david's linkedin">
+                <a target="_blank" href="https://www.linkedin.com/in/david-vanderhaar/" aria-label="link to david's linkedin">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="https://soundcloud.com/david-vanderhaar" aria-label="link to david's soundcloud">
+                <a target="_blank" href="https://soundcloud.com/david-vanderhaar" aria-label="link to david's soundcloud">
                     <i class="fa-brands fa-soundcloud"></i>
                 </a>
             </nav>
         </header>
+        <div class="contact_information">
+            <div class="contact_information__item"><a target="_blank" href="mailto:d.vanderhaarhunter@gmail.com">d.vanderhaarhunter@gmail.com</a></div>
+        </div>
+        
         <div class="main__section margin_bottom_2">
             <div class="main__section__title margin_bottom_1">About</div>
             <div class="main__section__body">
@@ -41,36 +45,27 @@
             <div class="main__section__title margin_bottom_1">Experience</div>
             <div class="main__section__body">
                 <div class="experience_entry">
-                    <div class="experience_entry__left">
-                        <div class="experience_entry__year">2021 - Present</div>
-                    </div>
                     <div class="experience_entry__right">
                         <div class="experience_entry__title">Software Developer</div>
-                        <div class="experience_entry__subtitle">Bamboo Health</div>
+                        <div class="experience_entry__subtitle">Bamboo Health, <span class="experience_entry__year">2021 - Present</span></div>
                         <div class="experience_entry__body">
-                            I build backend solutions that create and improve customers data pipelines. I implement several frontend solutions to our end users as well. This is done with Ruby, Rails and a hefty serving of cloud tools and services.
+                            I build backend solutions to create and improve data pipelines for healthcare payers and providers. I implement frontend solutions for our real-time users as well. This is done with Ruby, Rails, Vue and a hefty serving of cloud tools and services.
                         </div>
                     </div>
                 </div>
                 <div class="experience_entry">
-                    <div class="experience_entry__left">
-                        <div class="experience_entry__year">2017 - 2021</div>
-                    </div>
                     <div class="experience_entry__right">
                         <div class="experience_entry__title">Software Developer</div>
-                        <div class="experience_entry__subtitle">APAX Software</div>
+                        <div class="experience_entry__subtitle">APAX Software, <span class="experience_entry__year">2017 - 2021</span></div>
                         <div class="experience_entry__body">
                             As a full stack developer I implemented and supported web applications by writing client-side and server-side code across many languages and frameworks. I also maintained a complete CI/CD pipeline for several applications using Chef, Vagrant, Virtual Box, AWS, and Codeship.
                         </div>
                     </div>
                 </div>
                 <div class="experience_entry">
-                    <div class="experience_entry__left">
-                        <div class="experience_entry__year">2011 - 2015</div>
-                    </div>
                     <div class="experience_entry__right">
                         <div class="experience_entry__title">Field Staff</div>
-                        <div class="experience_entry__subtitle">Bridges International</div>
+                        <div class="experience_entry__subtitle">Bridges International, <span class="experience_entry__year">2011 - 2015</span></div>
                         <div class="experience_entry__body">
                             I coordinated hospitality programs to assist and improve relationships between international students and local communities. I trained and managed more than 30 team members on communication and operating processes of the organization. I budgeted for and coordinated partnerships for each event. We began a  monthly dinner program that increased local and international involvement by three times.
                         </div>
@@ -79,16 +74,24 @@
             </div>
         </div>
         <div class="main__section margin_bottom_2">
+            <div class="main__section__title margin_bottom_1">Education</div>
+            <div class="experience_entry__subtitle">University of Kentucky, <span class="experience_entry__year">May, 2015</span></div>
+            <div class="experience_entry__subtitle">International Development, B.A.</div>
+            <div class="main__section__body">
+                My degree focused on research writing pertaining to modern geopolitical issues and cross-cultural examination.
+            </div>
+        </div>
+        <div class="main__section margin_bottom_2">
             <div class="main__section__title margin_bottom_1">Personal</div>
             <div class="main__section__body">
                 Check out my itch.io and github pages if you'd like to see some hobbyist game development. Here are a few of my favorite, even if incomplete, entries:
 
                 <div>
-                    <a class="experience_entry__subtitle" href="https://github.com/david-vanderhaar/jacinto_rl">Jacinto RL</a>
-                    -- <a class="experience_entry__subtitle" href="https://github.com/david-vanderhaar/histomap">Histomap</a>
-                    -- <a class="experience_entry__subtitle" href="https://github.com/david-vanderhaar/react-like-rogue">React-Like-Rogue</a>
-                    -- <a class="experience_entry__subtitle" href="https://github.com/david-vanderhaar/ascii-map-maker">ASCII Map Maker</a>
-                    -- <a class="experience_entry__subtitle" href="https://github.com/david-vanderhaar/soul_tarot_generator">Soul Tarot Generator</a>
+                    <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/jacinto_rl">Jacinto RL</a>
+                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/histomap">Histomap</a>
+                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/react-like-rogue">React-Like-Rogue</a>
+                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/ascii-map-maker">ASCII Map Maker</a>
+                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/soul_tarot_generator">Soul Tarot Generator</a>
                 </div>
             </div>
         </div>
@@ -99,7 +102,7 @@
                 <br>
                 <br>
 
-                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1428187678&color=%23494066&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/david-vanderhaar" title="Selah V" target="_blank" style="color: #cccccc; text-decoration: none;">Selah V</a> · <a href="https://soundcloud.com/david-vanderhaar/sets/for-those-interested" title="For Those Interested" target="_blank" style="color: #cccccc; text-decoration: none;">For Those Interested</a></div>
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1428187678&color=%23494066&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a target="_blank" href="https://soundcloud.com/david-vanderhaar" title="Selah V" target="_blank" style="color: #cccccc; text-decoration: none;">Selah V</a> · <a target="_blank" href="https://soundcloud.com/david-vanderhaar/sets/for-those-interested" title="For Those Interested" target="_blank" style="color: #cccccc; text-decoration: none;">For Those Interested</a></div>
             </div>
         </div>
     </main>
