@@ -20,6 +20,51 @@ body {
 
 header {
     display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+nav a {
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: var(--color-default);
+    text-decoration-color: var(--color-default);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:visited {
+    color: var(--color-default);
+}
+
+.links a {
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: var(--color-default);
+    text-decoration-color: var(--color-default);
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a:visited {
+    color: var(--color-default);
+}
+
+.links {
+    list-style: none;
+    padding: 0;
 }
 
 h1 {
@@ -61,11 +106,16 @@ main {
 }
 
 .header__title {
-    flex-grow: 1;
+    margin: 2rem 1rem 0 0;
 }
 
-.header__links {
-    flex-shrink: 1;
+.header__title a:hover {
+    color: var(--color-default);
+    text-decoration-color: var(--color-default);
+}
+
+.header__title a:visited {
+    color: var(--color-default);
 }
 
 #portrait_container {
@@ -76,8 +126,6 @@ main {
 #portrait_container img {
     max-width: 400px;
 }
-
-
 
 .date_prefix {
     font-size: .8em;
