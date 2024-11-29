@@ -109,9 +109,28 @@ main {
     margin: 2rem 1rem 0 0;
 }
 
+/* .header__title a {
+    text-decoration: none;
+}
+
 .header__title a:hover {
     color: var(--color-default);
     text-decoration-color: var(--color-default);
+}
+
+.header__title a:visited {
+    color: var(--color-default);
+} */
+
+.header__title a {
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: var(--color-default);
+    text-decoration-color: var(--color-default);
+}
+
+.header__title a:hover {
+    text-decoration: underline;
 }
 
 .header__title a:visited {
