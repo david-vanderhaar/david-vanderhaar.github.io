@@ -6,131 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" target="_blank" href="https://fonts.googleapis.com">
     <link rel="preconnect" target="_blank" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Roboto -->
     <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
     <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" target="_blank" href="./css/main.css">
+    <!-- IBM Plex Serif -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" target="_blank" href="css/main.css">
     <title>David Vanderhaar</title>
 </head>
 <body>
-    <aside id="portrait_container">
-        <img id="portrait" src="./assets/images/PortraitNoBck.png" alt="portrait photo of David Vanderhaar">
-    </aside>
+    <!-- <aside id="portrait_container">
+        <img id="portrait" src="assets/images/PortraitNoBck.png" alt="portrait photo of David Vanderhaar">
+    </aside> -->
     <main>
         <header>
-            <div class="header__title">David Vanderhaar</div>
-            <nav class="header__links">
-                <a target="_blank" href="https://github.com/david-vanderhaar" aria-label="link to david's github">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/david-vanderhaar/" aria-label="link to david's linkedin">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a target="_blank" href="https://soundcloud.com/david-vanderhaar" aria-label="link to david's soundcloud">
-                    <i class="fa-brands fa-soundcloud"></i>
-                </a>
+            <h1 class="header__title"><a href="/index.html">David Vanderhaar</a></h1>
+            <nav class="link_list">
+                <a href="/experience/index.html">experience</a>
+                <!-- <a href="/projects/index.html">projects</a> -->
             </nav>
         </header>
-        <div class="contact_information">
-            <div class="contact_information__item"><a target="_blank" href="mailto:d.vanderhaarhunter@gmail.com">d.vanderhaarhunter@gmail.com</a></div>
-        </div>
-        
-        <div class="main__section margin_bottom_2">
-            <div class="main__section__title margin_bottom_1">About</div>
-            <div class="main__section__body">
+        <div>
+            <h2>About</h2>
+            <p>
                 Hi there, I am software developer with over 5 years of experience in the industry who is passionate about being a generalist, mastering the fundamentals, mentoring others, and creating fun, functional tools and games with code.
                 <br>
                 <br>
                 My introduction to software development started back in college on whim. I wanted to know how video games worked and how they were made. I started by using a tool called GameMaker to create an X-men themed brick breaker game. At that point I didn’t realize I was “programming”, it was just a surprisingly fun hobby. But the seed was planted. Years later I took a coding Bootcamp in Lexington, KY and started developing applications professionally.
-            </div>
+            </p>
         </div>
-        <div class="main__section margin_bottom_2">
-            <div class="main__section__title margin_bottom_1">Experience</div>
-            <div class="main__section__body">
-                <div class="experience_entry">
-                    <div class="experience_entry__right">
-                        <div class="experience_entry__title">Software Developer</div>
-                        <div class="experience_entry__subtitle">Bamboo Health, <span class="experience_entry__year">2021 - Present</span></div>
-                        <div class="experience_entry__body">
-                            I build backend solutions to create and improve data pipelines for healthcare payers and providers. I implement frontend solutions for our real-time users as well. This is done with Ruby, Rails, Vue and a hefty serving of cloud tools and services.
-                        </div>
-                    </div>
-                </div>
-                <div class="experience_entry">
-                    <div class="experience_entry__right">
-                        <div class="experience_entry__title">Software Developer</div>
-                        <div class="experience_entry__subtitle">APAX Software, <span class="experience_entry__year">2017 - 2021</span></div>
-                        <div class="experience_entry__body">
-                            As a full stack developer I implemented and supported web applications by writing client-side and server-side code across many languages and frameworks. I also maintained a complete CI/CD pipeline for several applications using Chef, Vagrant, Virtual Box, AWS, and Codeship.
-                        </div>
-                    </div>
-                </div>
-                <div class="experience_entry">
-                    <div class="experience_entry__right">
-                        <div class="experience_entry__title">Field Staff</div>
-                        <div class="experience_entry__subtitle">Bridges International, <span class="experience_entry__year">2011 - 2015</span></div>
-                        <div class="experience_entry__body">
-                            I coordinated hospitality programs to assist and improve relationships between international students and local communities. I trained and managed more than 30 team members on communication and operating processes of the organization. I budgeted for and coordinated partnerships for each event. We began a  monthly dinner program that increased local and international involvement by three times.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main__section margin_bottom_2">
-            <div class="main__section__title margin_bottom_1">Skills</div>
-            <div class="experience_entry__subtitle">Languages</div>
-            <div class="main__section__body margin_bottom_1">
-                Javascript, Python, Ruby, PHP, C#, Bash, HTML, CSS
-            </div>
-            <div class="experience_entry__subtitle">Frontend</div>
-            <div class="main__section__body margin_bottom_1">
-                React, React Native, Vue, Bootstrap, Material Design
-            </div>
-            <div class="experience_entry__subtitle">Backend</div>
-            <div class="main__section__body margin_bottom_1">
-                Django, Ruby on Rails, Drupal, Laravel, PostgreSQL, SQLite
-            </div>
-            <div class="experience_entry__subtitle">Deployment / CI</div>
-            <div class="main__section__body margin_bottom_1">
-                Chef, Vagrant, Virtual Box, Codeship, Jenkins, AWS (Opsworks, EC2, RDS, S3)
-            </div>
-            <div class="experience_entry__subtitle">Other</div>
-            <div class="main__section__body margin_bottom_1">
-                Git, Google Analytics, Atlassian Tools, Linux
-            </div>
-        </div>
-        <div class="main__section margin_bottom_2">
-            <div class="main__section__title margin_bottom_1">Education</div>
-            <div class="experience_entry__subtitle">University of Kentucky, <span class="experience_entry__year">May, 2015</span></div>
-            <div class="experience_entry__subtitle">International Development, B.A.</div>
-            <div class="main__section__body">
-                My degree focused on research writing pertaining to modern geopolitical issues and cross-cultural examination.
-            </div>
-        </div>
-        <div class="main__section margin_bottom_2">
-            <div class="main__section__title margin_bottom_1">Personal</div>
-            <div class="main__section__body">
-                Check out my itch.io and github pages if you'd like to see some hobbyist game development. Here are a few of my favorite, even if incomplete, entries:
+        <div>
+            <h2>Personal</h2>
+            <p>
+                Check out my <a target="_blank" href="https://classicwook.itch.io/">itch.io</a> and <a target="_blank" href="https://david-vanderhaar.github.io/">github</a> pages if you'd like to see some hobbyist game development. Here are a few of my favorite, even if incomplete, entries:
 
-                <div>
-                    <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/jacinto_rl">Jacinto RL</a>
-                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/histomap">Histomap</a>
-                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/react-like-rogue">React-Like-Rogue</a>
-                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/ascii-map-maker">ASCII Map Maker</a>
-                    -- <a class="experience_entry__subtitle" target="_blank" href="https://github.com/david-vanderhaar/soul_tarot_generator">Soul Tarot Generator</a>
-                </div>
-            </div>
+                <ul class="links">
+                    <li><a target="_blank" href="https://github.com/david-vanderhaar/jacinto_rl">Jacinto RL</a></li>
+                    <li><a target="_blank" href="https://github.com/david-vanderhaar/histomap">Histomap</a></li>
+                    <li><a target="_blank" href="https://github.com/david-vanderhaar/react-like-rogue">React-Like-Rogue</a></li>
+                    <li><a target="_blank" href="https://github.com/david-vanderhaar/ascii-map-maker">ASCII Map Maker</a></li>
+                    <li><a target="_blank" href="https://github.com/david-vanderhaar/soul_tarot_generator">Soul Tarot Generator</a></li>
+                </ul>
+            </p>
         </div>
-        <div class="main__section margin_bottom_2">
-            <div class="main__section__title margin_bottom_1">Music</div>
-            <div class="main__section__body">
-                When I need to relax or vent I make music. If you are so inclined, take a listen. 
-                <br>
-                <br>
-
-                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1428187678&color=%23494066&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a target="_blank" href="https://soundcloud.com/david-vanderhaar" title="Selah V" target="_blank" style="color: #cccccc; text-decoration: none;">Selah V</a> · <a target="_blank" href="https://soundcloud.com/david-vanderhaar/sets/for-those-interested" title="For Those Interested" target="_blank" style="color: #cccccc; text-decoration: none;">For Those Interested</a></div>
-            </div>
+        <div>
+            <h2>Music</h2>
+            <p>
+                When I need to relax or vent <a target="_blank" href="https://david-vanderhaar.github.io/selah_v_music_log/">I make music</a>. If you are so inclined, take a listen. 
+            </p>
         </div>
+        <div>
+            <h2>Creative Writing</h2>
+            <p>
+                When the mood strikes I enjoy <a target="_blank" href="https://david-vanderhaar.github.io/verse-and-verve/">writing poems</a>. If you are so inclined, take a gander. 
+            </p>
+        </div>
+        <footer>
+            <h2>Get in touch</h2>
+            <ul class="links">
+                <li><a target="_blank" href="https://david-vanderhaar.github.io/">github</a></li>
+                <li><a target="_blank" href="https://x.com/classicwook">twitter/x</a></li>
+                <li><a target="_blank" href="https://bsky.app/profile/selah-v.bsky.social">bluesky</a></li>
+                <li><a target="_blank" href="mailto:d.vanderhaarhunter@gmail.com">d.vanderhaarhunter@gmail.com</a></li>
+            </ul>
+        </footer>
     </main>
 </body>
 </html>
