@@ -99,28 +99,14 @@ a:visited {
 }
 
 main {
-    margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 3rem;
-    max-width: 38rem;
+    max-width: 44rem;
 }
 
 .header__title {
     margin: 2rem 1rem 0 0;
 }
-
-/* .header__title a {
-    text-decoration: none;
-}
-
-.header__title a:hover {
-    color: var(--color-default);
-    text-decoration-color: var(--color-default);
-}
-
-.header__title a:visited {
-    color: var(--color-default);
-} */
 
 .header__title a {
     margin-right: 0.75rem;
@@ -153,4 +139,10 @@ main {
     color: var(--color-light);
     margin-left: .25em;
     white-space: nowrap;
+}
+
+.attention--accent::before {
+    content: "* ";
+    color: var(--color-accent);
+    vertical-align: middle;
 }
