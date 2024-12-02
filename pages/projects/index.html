@@ -1,31 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" target="_blank" href="https://fonts.googleapis.com">
-    <link rel="preconnect" target="_blank" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Roboto -->
-    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-    <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- IBM Plex Serif -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" target="_blank" href="/css/main.css">
-    <title>David Vanderhaar</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" target="_blank" href="https://fonts.googleapis.com">
+        <link rel="preconnect" target="_blank" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Roboto -->
+        <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+        <link target="_blank" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" target="_blank" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- IBM Plex Serif -->
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <!-- favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicons/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+        <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+        <!-- main styles -->
+        <link rel="stylesheet" target="_blank" href="/css/main.css">
+        <title>David Vanderhaar</title>
+    </head>
 <body>
     <main>
         <header>
             <h1 class="header__title"><a href="/index.html">David Vanderhaar</a></h1>
             <nav>
-                <a href="/pages/experience/index.html">experience</a>
+                <a href="/pages/resume/index.html">résumé</a>
                 <a href="/pages/projects/index.html" class="attention--accent">projects</a>
             </nav>
         </header>
         <div>
-            <h2>Projects</h2>
+            <h1>Projects</h1>
+            <p>
+                intro test Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vitae asperiores cum quidem natus minima laborum porro quaerat quis nihil, molestiae, veniam, non molestias voluptate necessitatibus numquam ducimus iure totam?
+            </p>
+            <h2>Highlights</h2>
+            <ul class="list--projects">
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/selah_v_music_log/">Selah V Music Log</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">svelte</span>
+                    <span class="project_tag">AWS S3</span>
+                    <p>
+                        A personal, chronological log of most of the music I make in my spare time. 
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/verse-and-verve/">Verse & Verve Poetry Log</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">svelte</span>
+                    <span class="project_tag">github as a file store</span>
+                    <p>
+                        A personal, chronological log of most of the poetry I write in my spare time. 
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/react-like-rogue">React Like Rogue</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">react</span>
+                    <span class="project_tag">game dev</span>
+                    <p>
+                        A traditional <a target="_blank" href="https://en.wikipedia.org/wiki/Roguelike">roguelike</a> game. In fact, this is my first ever roguelike so it holds a special place in my heart. Built with React as a way to really dive into that frontend framework.
+                    </p>
+                </li>
+            </ul>
+            <h2>All</h2>
+            <ul class="list--projects">
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/jacinto_rl">Jacinto RL</a></h3>
+                    <span class="project_tag">web</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/histomap">Histomap Generator</a></h3>
+                    <span class="project_tag">web</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/ascii-map-maker">ASCII Map Maker</a></h3>
+                    <span class="project_tag">web</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/soul_tarot_generator">Soul Tarot Generator</a></h3>
+                    <span class="project_tag">web</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/fire-fight-rl/">Flume: Firefighter RL</a></h3>
+                    <span class="project_tag">web</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/something_in_the_tall_grass/">Something In the Tall Grass</a></h3>
+                    <span class="project_tag">web</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://github.com/david-vanderhaar/ruby_terminal_world_generator">World in Your Terminal</a></h3>
+                    <span class="project_tag">ruby</span>
+                    <span class="project_tag">terminal</span>
+                    <p>
+                        <a target="_blank" href="https://rubygems.org/gems/world_in_your_terminal">Availble via RubyGems.org</a>
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://david-vanderhaar.github.io/javascript_terminal_world_generator/">World in Your Browser</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">javascript</span>
+                    <p>
+                        A javascript port of my ealier <a target="_blank" href="https://github.com/david-vanderhaar/ruby_terminal_world_generator">world in your terminal gem</a>. This was done mostly so that world could be more easily shared on the web.
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Story Lorry</a></h3>
+                    <span class="project_tag">python</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Etymos</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">svelte</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">The Duchess With Friends</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">svelte</span>
+                    <span class="project_tag">websockets</span>
+                    <span class="project_tag">UI</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Rune Tablet</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">svelte</span>
+                    <span class="project_tag">UI</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Rogue Engine</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">javascript</span>
+                    <span class="project_tag">system design</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">BO-33</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">javascript</span>
+                    <span class="project_tag">Vue</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        description
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="https://github.com/david-vanderhaar/redsea">Redsea</a></h3>
+                    <span class="project_tag">AWS Fargate</span>
+                    <span class="project_tag">AWS S3</span>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">javascript</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        <a href="https://david-vanderhaar.github.io/redsea_ui/" target="_blank" rel="noopener noreferrer">front end</a>
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Pixel Brawl</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">javascript</span>
+                    <span class="project_tag">Phase JS</span>
+                    <span class="project_tag">game dev</span>
+                    <p>
+                        A For Honor demake. Heavily utilizing finite state machines.
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Underlight</a></h3>
+                    <span class="project_tag">reading</span>
+                    <span class="project_tag">collection</span>
+                    <p>
+                        A For Honor demake. Heavily utilizing finite state machines.
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">Freesound Beatlab</a></h3>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">javascript</span>
+                    <span class="project_tag">tool</span>
+                    <p>
+                        My first audio sampler which taps straigth into free-use samples via <a target="_blank" href="https://freesound.org/">freesound.org</a>
+                    </p>
+                </li>
+                <li>
+                    <h3><a target="_blank" href="#">An Old Blog</a></h3>
+                    <span class="project_tag">writing</span>
+                    <span class="project_tag">web</span>
+                    <span class="project_tag">jekyll</span>
+                    <p>
+                        My first audio sampler which taps straigth into free-use samples via <a target="_blank" href="https://freesound.org/">freesound.org</a>
+                    </p>
+                </li>
+            </ul>
         </div>
         <footer>
             <h2>Get in touch</h2>

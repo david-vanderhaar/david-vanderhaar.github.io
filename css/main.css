@@ -47,26 +47,6 @@ nav a:visited {
     color: var(--color-default);
 }
 
-.links a {
-    margin-right: 0.75rem;
-    text-decoration: none;
-    color: var(--color-default);
-    text-decoration-color: var(--color-default);
-}
-
-.links a:hover {
-    text-decoration: underline;
-}
-
-.links a:visited {
-    color: var(--color-default);
-}
-
-.links {
-    list-style: none;
-    padding: 0;
-}
-
 h1 {
     font-weight: normal;
 }
@@ -105,7 +85,10 @@ main {
 }
 
 .header__title {
-    margin: 2rem 1rem 0 0;
+    /* margin: 2rem 1rem 0 0; */
+    margin-right: 0;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .header__title a {
@@ -132,7 +115,7 @@ main {
     max-width: 400px;
 }
 
-.date_prefix {
+.date_prefix, .project_tag {
     font-size: .8em;
     font-style: italic;
     font-weight: normal;
@@ -145,4 +128,30 @@ main {
     content: "* ";
     color: var(--color-accent);
     vertical-align: middle;
+}
+
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links a {
+    margin-right: 0.75rem;
+    text-decoration: none;
+    color: var(--color-default);
+    text-decoration-color: var(--color-default);
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a:visited {
+    color: var(--color-default);
+}
+
+.list--projects {
+    list-style: none;
+    padding: 0; 
 }
